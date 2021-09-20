@@ -1,3 +1,14 @@
+# Notes
+
+### React Refs
+
+1. React Refs gives you access a single DOM element that is rendered by a component. To use Refs in a class component you create a Ref in the constructor, assign them to the instance variables (not to state), then pass it to a particular JSX element as props. If you ever want to interact with a DOM element use react's ref system.
+
+   > For an example take a look at the ImageCard class component
+
+2. To communicate from child to parent you can create a callback in the parent component and pass it in to the child component as a prop. You can then use the callback in the child component and it will communicate what is being passed in the arguments to the parent.
+   > For an example see the onSearchSubmit callback in the App.js component that is being passed into the SearchBar child component.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

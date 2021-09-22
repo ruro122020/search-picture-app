@@ -1,5 +1,7 @@
 # Notes
 
+A simple pictures search application using unsplash api with class components in React.
+
 ### React Refs
 
 1. React Refs gives you access a single DOM element that is rendered by a component. To use Refs in a class component you create a Ref in the constructor, assign them to the instance variables (not to state), then pass it to a particular JSX element as props. If you ever want to interact with a DOM element use react's ref system.
